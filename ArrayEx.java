@@ -4,7 +4,7 @@ import java.util.Collections;
 
  class ArrayEx {
     
-        
+        //right to left method which is Optimized solution
         static ArrayList<Integer> leaders(int[] arr) {
         ArrayList<Integer> res=new ArrayList<>();
         //int arr[]={12,3,29,4,2,1};
@@ -31,6 +31,7 @@ import java.util.Collections;
         }
     }
 /* 
+//left to right approach which is more time and space complexity
 // Function to find the leaders in an array
 static ArrayList<Integer> leaders(int[] arr) {
     ArrayList<Integer> result = new ArrayList<>();
